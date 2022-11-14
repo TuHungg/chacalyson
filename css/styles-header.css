@@ -1,0 +1,95 @@
+.main_header {
+  height: 120px;
+  /* background-color: #345da7; */
+}
+
+/* icon */
+.img_logo {
+  height: 80px;
+  width: 80px;
+}
+.fa-clock {
+  color: #345da7;
+}
+.icon_zalo {
+  height: 50px;
+  width: 40px;
+}
+
+.fa-phone-volume {
+  color: #345da7;
+}
+.fa-facebook {
+  color: #345da7;
+}
+
+/* header */
+.content_header {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  width: 100%;
+}
+
+.content_header_contact {
+  width: 30%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.content_header_contact_item {
+  list-style: none;
+}
+
+.content_header_phone {
+  font-family: "Poppins", sans-serif;
+  font-size: small;
+}
+
+.content_header_timeserving {
+  font-family: "Poppins", sans-serif;
+  font-size: small;
+}
+
+.contact_header_logo {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 40%;
+  justify-content: center;
+}
+
+.contact_header_icon {
+  display: flex;
+  width: 30%;
+  justify-content: flex-end;
+}
+
+.contact_header_icon_item {
+  display: flex;
+  align-items: center;
+  /* height: 20px; */
+  width: 80px;
+  list-style: none;
+}
+
+@media (max-width: 768px) {
+  .contact_header_icon {
+    display: none;
+  }
+
+  .content_header_contact {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+
+  .contact_header_logo {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+    justify-content: center;
+  }
+}
