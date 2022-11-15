@@ -34,9 +34,9 @@
 .content_header_contact {
   width: 30%;
   display: flex;
-  justify-content: space-evenly;
   flex-wrap: wrap;
 }
+
 .content_header_contact_item {
   list-style: none;
 }
@@ -78,11 +78,25 @@
     display: none;
   }
 
+  .brand_box {
+    position: absolute;
+    top: 180px;
+    left: 0;
+    z-index: 9;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
   .content_header_contact {
     width: 50%;
     display: flex;
-    justify-content: space-evenly;
     flex-wrap: wrap;
+    flex-direction: column;
   }
 
   .contact_header_logo {

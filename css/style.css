@@ -719,5 +719,19 @@ a:focus {
   color: #222222;
 }
 
+/* .icon_zalo_contect {
+  height: 55px;
+  width: 55px;
+} */
+
+.img-represent {
+  height: 571px;
+  width: 494px;
+}
+
+.img-about {
+  /* height: 500px; */
+}
+
 /* end footer section*/
 /*# sourceMappingURL=style.css.map */
